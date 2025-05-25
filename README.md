@@ -4,18 +4,18 @@ Ce dépôt contient les notebooks utilisés pour la mise en place d’une archit
 
 ---
 
-## 🔹 Notebook 1 — Niveau Bronze
+## 🔹 Chargement fichier — Niveau Bronze
 
 **Objectif :**  
 Charger les fichiers sources depuis un stockage local.
 
 **Détails :**  
 - Intégration des données brutes sans transformation.
-- Création de la table bronze.
+- Création de la table Delta.
 
 ---
 
-## 🔸 Notebook 2 — Niveau Argent
+## 🔸 Fusion fichiers — Niveau Argent
 
 **Objectif :**  
 Nettoyer et transformer les données intégrées.
@@ -28,7 +28,7 @@ Nettoyer et transformer les données intégrées.
 
 ---
 
-## 🟡 Notebook 3 — Niveau Or (Dimensions)
+## 🟡 Dimension_tables — Niveau Or (Dimensions)
 
 **Objectif :**  
 Construire les tables de dimensions nécessaires aux analyses métier.
@@ -39,7 +39,7 @@ Construire les tables de dimensions nécessaires aux analyses métier.
 
 ---
 
-## 🟡 Notebook 4 — Niveau Or (Faits)
+## 🟡 Fast_table — Niveau Or (Faits)
 
 **Objectif :**  
 Générer la table de faits à partir des données préparées.
@@ -49,8 +49,6 @@ Générer la table de faits à partir des données préparées.
 - Constitution de la table centrale pour l’analyse (modèle en étoile).
 
 ---
-
-## 📁 Structure recommandée
 
 ## 🧱 À propos de l’architecture Médaillon
 
